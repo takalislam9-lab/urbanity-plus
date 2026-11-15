@@ -1,0 +1,20 @@
+RewriteEngine On
+# Siempre https y sin www
+RewriteCond %{HTTPS} off [OR]
+RewriteCond %{HTTP_HOST} ^www\. [NC]
+RewriteRule ^(.*)$ https://urbanityplus.es/$1 [L,R=301]
+# URLs de la web antigua -> secciones nuevas
+RewriteRule ^sobre-nosotros/?$ /#por-que [R=301,NE,L]
+RewriteRule ^servicios/?$ /#servicios [R=301,NE,L]
+RewriteRule ^contacto/?$ /#contacto [R=301,NE,L]
+RewriteRule ^porque-estructuras-metalicas/?$ /#por-que [R=301,NE,L]
+RewriteRule ^legal/aviso-legal/?$ /aviso-legal.html [R=301,L]
+RewriteRule ^legal/privacidad/?$ /privacidad.html [R=301,L]
+RewriteRule ^legal/cookies/?$ /cookies.html [R=301,L]
+ErrorDocument 404 /index.html
+<IfModule mod_expires.c>
+ExpiresActive On
+ExpiresByType text/css "access plus 7 days"
+ExpiresByType application/javascript "access plus 7 days"
+ExpiresByType image/svg+xml "access plus 30 days"
+</IfModule>

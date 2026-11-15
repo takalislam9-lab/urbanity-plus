@@ -153,8 +153,7 @@
       }
     });
 
-    // Urbanity Move y pie
-    gsap.to('.move__bg img', { yPercent: -15, ease: 'none', scrollTrigger: { trigger: '.move', start: 'top bottom', end: 'bottom top', scrub: true } });
+    // Pie
     gsap.from('.ftr__giant', { yPercent: 60, ease: 'none', scrollTrigger: { trigger: '.ftr', start: 'top bottom', end: 'bottom bottom', scrub: true } });
 
     // botones magnéticos

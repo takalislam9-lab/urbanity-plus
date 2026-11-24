@@ -3,14 +3,14 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Urbanity Plus · Construcción y estructuras metálicas atornilladas</title>
-<meta name="description" content="Urbanity Plus construye casas, naves, porches y cubiertas con estructura metálica atornillada, y hace reformas integrales. Trabajamos en toda España y en Europa.">
+<title>Urbanity Plus · Tú sueñas, nosotros construimos</title>
+<meta name="description" content="Urbanity Plus construye casas y chalets, cubiertas, porches y naves con estructura metálica atornillada, y hace reformas de cocinas, baños e integrales. En toda España y en Europa.">
 <meta name="theme-color" content="#0f2236">
 <link rel="icon" href="favicon.svg" type="image/svg+xml">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@500;600;700;800&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
-<link rel="stylesheet" href="styles.css?v=14">
+<link rel="stylesheet" href="styles.css?v=20">
 <script type="application/ld+json">
 {"@context":"https://schema.org","@type":"GeneralContractor","name":"Urbanity Plus","url":"https://urbanityplus.es","telephone":"+34919934348","email":"info@urbanityplus.es","address":{"@type":"PostalAddress","streetAddress":"C/ de la Encina 3, casa B","postalCode":"28110","addressLocality":"Algete","addressRegion":"Madrid","addressCountry":"ES"},"areaServed":["ES","EU"],"knowsLanguage":["es","en","fr","sv"]}
 </script>
@@ -20,15 +20,14 @@
 <header class="hdr">
   <div class="hdr__top wrap">
     <a href="#inicio" class="logo" aria-label="Urbanity Plus, inicio">
-      <svg viewBox="0 0 64 44" aria-hidden="true"><path d="M4 22 32 4l28 18" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/><rect x="25" y="17" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 17v14M25 24h14" stroke="currentColor" stroke-width="3"/></svg>
+      <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#logo-mark"/></svg>
       <span><b>URBANITY</b><small>PLUS</small></span>
     </a>
     <nav class="nav" id="nav" aria-label="Principal">
-      <a href="#servicios" data-i18n="nav.services">Servicios</a>
-      <a href="#sistema" data-i18n="nav.system">El sistema</a>
-      <a href="#proceso" data-i18n="nav.process">Cómo trabajamos</a>
-      <a href="#obras" data-i18n="nav.works">Ejemplos</a>
-      <a href="#preguntas" data-i18n="nav.faq">Preguntas</a>
+      <a href="#casas" data-i18n="nav.casas">Casas y chalets</a>
+      <a href="#reformas" data-i18n="nav.reformas">Reformas</a>
+      <a href="#cubiertas" data-i18n="nav.cubiertas">Cubiertas</a>
+      <a href="#naves" data-i18n="nav.naves">Naves</a>
       <a href="#contacto" class="nav__cta" data-i18n="nav.contact">Contacto</a>
     </nav>
     <button class="burger" aria-label="Menú" aria-expanded="false" aria-controls="nav"><span></span><span></span></button>
@@ -47,201 +46,243 @@
 <section class="hero" id="inicio">
   <img class="hero__img" src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=2000&q=70" alt="">
   <div class="hero__in wrap">
-    <p class="kicker" data-i18n="hero.kicker">Urbanity Plus · Empresa constructora</p>
-    <h1 data-i18n="hero.title">Tu proyecto,<br><em>nuestra prioridad.</em></h1>
-    <p class="hero__sub" data-i18n="hero.sub">Construimos casas, naves, porches y cubiertas con estructura metálica atornillada, y hacemos reformas completas. En toda España y en Europa.</p>
+    <p class="kicker" data-i18n="hero.kicker">Urbanity Plus · Estructura metálica atornillada</p>
+    <h1 data-i18n="hero.title">Tú sueñas,<br><em>nosotros construimos.</em></h1>
+    <p class="hero__sub" data-i18n="hero.sub">Casas y chalets, reformas, cubiertas y naves con estructura metálica atornillada. Más rápido y más limpio que la obra tradicional.</p>
     <div class="hero__btns">
-      <a href="#particulares" class="btn btn--light" data-i18n="hero.b1">Soy particular ↗</a>
-      <a href="#empresas" class="btn btn--ghost" data-i18n="hero.b2">Soy empresa o promotora ↗</a>
+      <a href="#contacto" class="btn btn--light" data-i18n="hero.b1">Háblanos de tu sueño ↗</a>
     </div>
   </div>
-  <nav class="hero__svc" aria-label="Servicios">
-    <div class="wrap hero__svc-in">
-      <a href="#g-obra" data-group><svg><use href="#i-house"/></svg><span data-i18n="svc.g1">Obra nueva</span></a>
-      <a href="#g-reformas" data-group><svg><use href="#i-tools"/></svg><span data-i18n="svc.g2">Reformas</span></a>
-      <a href="#g-estructura" data-group><svg><use href="#i-beam"/></svg><span data-i18n="svc.g6">Estructuras metálicas</span></a>
-      <a href="#g-porches" data-group><svg><use href="#i-porch"/></svg><span data-i18n="svc.g3">Porches, cubiertas y restaurantes</span></a>
-      <a href="#g-caballos" data-group><svg><use href="#i-horse"/></svg><span data-i18n="svc.g4">Caballos</span></a>
-      <a href="#g-jardines" data-group><svg><use href="#i-tree"/></svg><span data-i18n="svc.g5">Jardines</span></a>
-      <a href="#servicios" class="hero__svc-all"><span data-i18n="hero.more">Ver todos los servicios ↓</span></a>
-    </div>
-  </nav>
 </section>
 
-<!-- PARA QUIÉN -->
-<section class="sec" id="para-quien">
+<!-- LAS 4 LÍNEAS -->
+<section class="cats" aria-label="Lo que hacemos">
+  <div class="wrap cats__in">
+    <a class="cat" href="#casas">
+      <img src="https://images.unsplash.com/photo-1602343168117-bb8ffe3e2e9f?auto=format&fit=crop&w=700&q=70" alt="" loading="lazy">
+      <div><svg><use href="#i-house"/></svg><h3 data-i18n="c1.t">Casas y chalets</h3>
+      <p data-i18n="c1.d">Tu casa a medida, del plano a la llave, con estructura metálica atornillada.</p>
+      <span class="cat__more" data-i18n="c.more">Ver más ↓</span></div>
+    </a>
+    <a class="cat" href="#reformas">
+      <img src="https://images.unsplash.com/photo-1600585152220-90363fe7e115?auto=format&fit=crop&w=700&q=70" alt="" loading="lazy">
+      <div><svg><use href="#i-tools"/></svg><h3 data-i18n="c2.t">Reformas</h3>
+      <p data-i18n="c2.d">Cocinas, baños, reformas integrales y reformas interiores.</p>
+      <span class="cat__more" data-i18n="c.more">Ver más ↓</span></div>
+    </a>
+    <a class="cat" href="#cubiertas">
+      <img src="https://images.unsplash.com/photo-1555396273-367ea4eb4db5?auto=format&fit=crop&w=700&q=70" alt="" loading="lazy">
+      <div><svg><use href="#i-porch"/></svg><h3 data-i18n="c3.t">Cubiertas</h3>
+      <p data-i18n="c3.d">Porches, terrazas de casas y de restaurantes, y establos con estructura metálica.</p>
+      <span class="cat__more" data-i18n="c.more">Ver más ↓</span></div>
+    </a>
+    <a class="cat" href="#naves">
+      <img src="https://images.unsplash.com/photo-1565610222536-ef125c59da2e?auto=format&fit=crop&w=700&q=70" alt="" loading="lazy">
+      <div><svg><use href="#i-hangar"/></svg><h3 data-i18n="c4.t">Naves industriales</h3>
+      <p data-i18n="c4.d">Naves pequeñas y sencillas, en fincas o en polígonos.</p>
+      <span class="cat__more" data-i18n="c.more">Ver más ↓</span></div>
+    </a>
+  </div>
+</section>
+
+<!-- CASAS Y CHALETS -->
+<section class="sec" id="casas">
   <div class="wrap">
     <div class="sec__head">
-      <div><p class="kicker" data-i18n="who.kicker">Particulares y empresas</p>
-      <h2 data-i18n="who.title">Espacios para vivir.<br>Espacios para trabajar.</h2></div>
-      <p class="sec__lead" data-i18n="who.lead">Cuéntanos qué quieres construir y dónde. Te decimos cómo lo haríamos, cuánto tardaríamos y cuánto costaría.</p>
+      <div><p class="kicker" data-i18n="casa.k">Casas y chalets</p>
+      <h2 data-i18n="casa.t">Tu sueño empieza aquí.</h2></div>
+      <p class="sec__lead" data-i18n="casa.lead">Así nace una casa con estructura metálica atornillada: del plano sobre el papel a la casa terminada.</p>
     </div>
 
-    <article class="split" id="particulares">
-      <img src="https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1400&q=70" alt="" loading="lazy">
-      <div class="split__txt">
-        <p class="kicker" data-i18n="who.p.k">Para particulares</p>
-        <h3 data-i18n="who.p.t">Tu casa. A tu manera.</h3>
-        <p data-i18n="who.p.d">Casas unifamiliares, casas dentro de fincas, porches, cubiertas para terrazas y reformas de baños, cocinas o la casa entera.</p>
-        <a href="#contacto" class="btn btn--dark" data-pick="particular" data-i18n="who.p.b">Hablar de mi casa ↗</a>
-      </div>
-    </article>
+    <figure class="film" id="film">
+      <svg class="v" viewBox="0 0 800 450" role="img" aria-label="Animación: del plano a la casa terminada">
+        <defs>
+          <pattern id="grid" width="25" height="25" patternUnits="userSpaceOnUse"><path d="M25 0H0v25" fill="none" stroke="rgba(255,255,255,.08)"/></pattern>
+          <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9cc9ec"/><stop offset="1" stop-color="#e6f1f8"/></linearGradient>
+        </defs>
+        <rect width="800" height="450" fill="url(#sky)"/>
+        <g class="bp"><rect width="800" height="450" fill="#123250"/><rect width="800" height="450" fill="url(#grid)"/></g>
+        <!-- 4: parcela, jardín y piscina -->
+        <g class="life">
+          <rect y="360" width="800" height="90" fill="#6d9a55"/>
+          <rect x="560" y="380" width="190" height="42" rx="4" fill="#4fb3e0" stroke="#e9e6df" stroke-width="5"/>
+          <rect x="60" y="390" width="120" height="8" fill="#d8cfbd"/>
+          <circle cx="110" cy="270" r="48" fill="#4f7d3e"/><circle cx="140" cy="300" r="36" fill="#5d8c48"/><rect x="118" y="300" width="10" height="62" fill="#6b4f33"/>
+          <circle cx="700" cy="300" r="30" fill="#4f7d3e"/><rect x="696" y="320" width="8" height="42" fill="#6b4f33"/>
+        </g>
+        <!-- 3: cerramientos y tejado -->
+        <g class="wall">
+          <rect x="200" y="200" width="400" height="160" fill="#efece5"/>
+          <polygon points="180,203 400,110 620,203" fill="#2b3644"/>
+          <rect x="240" y="240" width="70" height="60" fill="#9cc7e6" stroke="#2b3644" stroke-width="4"/>
+          <rect x="490" y="240" width="70" height="60" fill="#9cc7e6" stroke="#2b3644" stroke-width="4"/>
+          <rect x="370" y="270" width="60" height="90" fill="#6b4f33"/>
+        </g>
+        <!-- 1: el plano -->
+        <g class="plan" fill="none" stroke="#9fd0f5" stroke-width="2.5" stroke-dasharray="8 6">
+          <path class="p" pathLength="1" d="M200 360V200h400v160z"/>
+          <path class="p" pathLength="1" d="M180 203 400 110l220 93"/>
+          <path class="p" pathLength="1" d="M240 240h70v60h-70zM490 240h70v60h-70zM370 360v-90h60v90"/>
+          <path class="p" pathLength="1" d="M200 385h400M200 378v14M600 378v14"/>
+        </g>
+        <text class="plan-t" x="400" y="410" text-anchor="middle" fill="#9fd0f5" font-family="Inter,sans-serif" font-size="14">100 m²</text>
+        <!-- 2: estructura atornillada -->
+        <g class="frame" fill="#4b5a6a">
+          <rect class="col" x="200" y="200" width="10" height="160" style="--d:0s"/>
+          <rect class="col" x="330" y="200" width="10" height="160" style="--d:.15s"/>
+          <rect class="col" x="460" y="200" width="10" height="160" style="--d:.3s"/>
+          <rect class="col" x="590" y="200" width="10" height="160" style="--d:.45s"/>
+          <rect class="beam" x="196" y="195" width="408" height="10" style="--d:.7s"/>
+          <path class="beam" d="M186 205 400 114l214 91-6 6-208-88-208 88z" style="--d:.9s"/>
+          <rect class="beam" x="396" y="118" width="8" height="80" style="--d:1s"/>
+        </g>
+        <g class="bolts" fill="#e0a52b">
+          <circle cx="205" cy="200" r="5"/><circle cx="335" cy="200" r="5"/><circle cx="465" cy="200" r="5"/><circle cx="595" cy="200" r="5"/>
+          <circle cx="205" cy="355" r="5"/><circle cx="335" cy="355" r="5"/><circle cx="465" cy="355" r="5"/><circle cx="595" cy="355" r="5"/>
+          <circle cx="400" cy="120" r="5"/>
+        </g>
+      </svg>
+      <ol class="film__steps">
+        <li data-n="1" data-i18n="vid.s1">Plano</li>
+        <li data-n="2" data-i18n="vid.s2">Estructura atornillada</li>
+        <li data-n="3" data-i18n="vid.s3">Cerramientos y tejado</li>
+        <li data-n="4" data-i18n="vid.s4">Lista para vivir</li>
+      </ol>
+    </figure>
 
-    <article class="split split--rev" id="empresas">
-      <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=1400&q=70" alt="" loading="lazy">
-      <div class="split__txt">
-        <p class="kicker" data-i18n="who.e.k">Para empresas y promotoras</p>
-        <h3 data-i18n="who.e.t">Naves, locales y promociones.</h3>
-        <p data-i18n="who.e.d">Naves industriales de hasta 6 m de altura, restaurantes, cuadras y obra nueva. Estructura rápida de montar y presupuesto cerrado.</p>
-        <a href="#contacto" class="btn btn--dark" data-pick="empresa" data-i18n="who.e.b">Presentar mi proyecto ↗</a>
+    <div class="how">
+      <p class="kicker" data-i18n="how.k">Cómo funciona</p>
+      <h3 class="how__t" data-i18n="how.t">Construir con estructura metálica atornillada.</h3>
+      <ol class="parts">
+        <li><span>01</span><h3 data-i18n="how.1t">El plano</h3><p data-i18n="how.1d">Diseñamos tu casa contigo y calculamos cada pieza de la estructura.</p></li>
+        <li><span>02</span><h3 data-i18n="how.2t">Piezas a medida</h3><p data-i18n="how.2d">El acero se corta y se taladra en taller, y cada pieza llega numerada.</p></li>
+        <li><span>03</span><h3 data-i18n="how.3t">Montaje con tornillos</h3><p data-i18n="how.3d">En la obra, vigas y pilares se unen con tornillos. Sin soldar.</p></li>
+        <li><span>04</span><h3 data-i18n="how.4t">Cerramientos y acabados</h3><p data-i18n="how.4d">Paredes, tejado, ventanas, cocina y baños. Te la entregamos lista para vivir.</p></li>
+      </ol>
+    </div>
+
+    <div class="cmp">
+      <h3 data-i18n="cmp.t">Estructura atornillada frente a obra tradicional</h3>
+      <div class="cmp__tbl" role="table">
+        <div class="cmp__row cmp__head" role="row"><span role="columnheader"></span><span role="columnheader" data-i18n="cmp.h1">Estructura atornillada</span><span role="columnheader" data-i18n="cmp.h2">Obra tradicional</span></div>
+        <div class="cmp__row" role="row"><b role="rowheader" data-i18n="cmp.r1">Tiempo</b><span class="yes" data-i18n="cmp.r1a">Se monta en mucho menos tiempo: las piezas llegan listas.</span><span class="no" data-i18n="cmp.r1b">Meses de ladrillo, hormigón y secados.</span></div>
+        <div class="cmp__row" role="row"><b role="rowheader" data-i18n="cmp.r2">Dinero</b><span class="yes" data-i18n="cmp.r2a">Menos horas de obra y menos imprevistos.</span><span class="no" data-i18n="cmp.r2b">Más mano de obra y más sorpresas en el presupuesto.</span></div>
+        <div class="cmp__row" role="row"><b role="rowheader" data-i18n="cmp.r3">Obra</b><span class="yes" data-i18n="cmp.r3a">Limpia y seca, sin soldadura en obra.</span><span class="no" data-i18n="cmp.r3b">Escombros, polvo y agua.</span></div>
+        <div class="cmp__row" role="row"><b role="rowheader" data-i18n="cmp.r4">Precisión</b><span class="yes" data-i18n="cmp.r4a">Cada pieza, cortada a medida en taller.</span><span class="no" data-i18n="cmp.r4b">Medidas tomadas a mano en la obra.</span></div>
+        <div class="cmp__row" role="row"><b role="rowheader" data-i18n="cmp.r5">Ampliar</b><span class="yes" data-i18n="cmp.r5a">Fácil de ampliar más adelante.</span><span class="no" data-i18n="cmp.r5b">Ampliar es otra obra grande.</span></div>
       </div>
-    </article>
+    </div>
+
+    <div class="adv">
+      <h3 data-i18n="adv.t">Ventajas de este método</h3>
+      <ul>
+        <li><svg><use href="#i-clock"/></svg><span data-i18n="adv.1">Ahorras tiempo</span></li>
+        <li><svg><use href="#i-coin"/></svg><span data-i18n="adv.2">Ahorras dinero</span></li>
+        <li><svg><use href="#i-spark"/></svg><span data-i18n="adv.3">Obra limpia y ordenada</span></li>
+        <li><svg><use href="#i-beam"/></svg><span data-i18n="adv.4">Estructura ligera y exacta</span></li>
+      </ul>
+    </div>
+
+    <div class="center"><a href="#contacto" class="btn btn--dark" data-pick="Casa o chalet" data-i18n="casa.cta">Háblanos de tu sueño ↗</a></div>
   </div>
 </section>
 
-<!-- SERVICIOS -->
+<!-- REFORMAS -->
+<section class="sec sec--tint" id="reformas">
+  <div class="wrap">
+    <div class="sec__head">
+      <div><p class="kicker" data-i18n="ref.k">Reformas</p>
+      <h2 data-i18n="ref.t">Reformamos tu hogar a tu gusto.</h2></div>
+      <p class="sec__lead"><span data-i18n="ref.lead">Mueve la barra y mira el antes y el después.</span> <small class="note" data-i18n="ref.note">Imágenes de ejemplo.</small></p>
+    </div>
+
+    <div class="ba" id="ba" style="--x:50%">
+      <img src="https://images.unsplash.com/photo-1586023492125-27b2c045efd7?auto=format&fit=crop&w=1600&h=900&q=70" alt="Después" loading="lazy">
+      <div class="ba__before"><img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a?auto=format&fit=crop&w=1600&h=900&q=70" alt="Antes" loading="lazy"></div>
+      <span class="ba__tag ba__tag--l" data-i18n="ref.before">Antes</span>
+      <span class="ba__tag ba__tag--r" data-i18n="ref.after">Después</span>
+      <span class="ba__bar" aria-hidden="true"><i>‹ ›</i></span>
+      <input type="range" min="0" max="100" value="50" aria-label="Antes y después">
+    </div>
+
+    <div class="cards">
+      <article><img src="https://images.unsplash.com/photo-1556912173-3bb406ef7e77?auto=format&fit=crop&w=800&q=70" alt="" loading="lazy"><h3 data-i18n="ref.1t">Cocinas</h3><p data-i18n="ref.1d">Muebles, encimera e instalaciones.</p></article>
+      <article><img src="https://images.unsplash.com/photo-1584622650111-993a426fbf0a?auto=format&fit=crop&w=800&q=70" alt="" loading="lazy"><h3 data-i18n="ref.2t">Baños</h3><p data-i18n="ref.2d">Ducha, alicatado, sanitarios y muebles.</p></article>
+      <article><img src="https://images.unsplash.com/photo-1600210492486-724fe5c67fb0?auto=format&fit=crop&w=800&q=70" alt="" loading="lazy"><h3 data-i18n="ref.3t">Reforma integral</h3><p data-i18n="ref.3d">Tu casa o tu local entero, de principio a fin.</p></article>
+      <article><img src="https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=70" alt="" loading="lazy"><h3 data-i18n="ref.4t">Reformas interiores</h3><p data-i18n="ref.4d">Distribución, suelos, paredes, techos e instalaciones.</p></article>
+    </div>
+
+    <div class="center"><a href="#contacto" class="btn btn--dark" data-pick="Reforma" data-i18n="ref.cta">Listo para tu reforma ↗</a></div>
+  </div>
+</section>
+
+<!-- CUBIERTAS -->
+<section class="sec" id="cubiertas">
+  <div class="wrap">
+    <div class="sec__head">
+      <div><p class="kicker" data-i18n="cub.k">Cubiertas</p>
+      <h2 data-i18n="cub.t">Construimos y ampliamos espacios para cubrir tus necesidades.</h2></div>
+      <p class="sec__lead"><span data-i18n="cub.lead">Gana metros útiles y disfrútalos todo el año.</span> <small class="note" data-i18n="ref.note">Imágenes de ejemplo.</small></p>
+    </div>
+
+    <div class="gal3">
+      <figure><img src="https://images.unsplash.com/photo-1582268611958-ebfd161ef9cf?auto=format&fit=crop&w=1000&q=70" alt="" loading="lazy"><figcaption data-i18n="cub.1">Porches de casas</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1600607688969-a5bfcd646154?auto=format&fit=crop&w=1000&q=70" alt="" loading="lazy"><figcaption data-i18n="cub.2">Terrazas de pisos y casas</figcaption></figure>
+      <figure><img src="https://images.unsplash.com/photo-1594398901394-4e34939a4fd0?auto=format&fit=crop&w=1000&q=70" alt="" loading="lazy"><figcaption data-i18n="cub.3">Terrazas de restaurantes</figcaption></figure>
+    </div>
+
+    <div class="pick">
+      <div><h3 data-i18n="cub.q">¿Qué tipo de cubierta necesitas?</h3>
+      <p data-i18n="cub.hint">Elige una y cuéntanoslo por WhatsApp.</p></div>
+      <div class="pick__opts">
+        <a class="chip" data-wa="Porche" data-i18n="cub.o1" href="#">Porche</a>
+        <a class="chip" data-wa="Terraza de casa o piso" data-i18n="cub.o2" href="#">Terraza de casa o piso</a>
+        <a class="chip" data-wa="Terraza de restaurante" data-i18n="cub.o3" href="#">Terraza de restaurante</a>
+        <a class="chip" data-wa="Establo con estructura metálica" data-i18n="cub.o4" href="#">Establo</a>
+        <a class="chip" data-wa="Otra cubierta" data-i18n="cub.o5" href="#">Otra</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- NAVES -->
+<section class="sec sec--dark" id="naves">
+  <div class="wrap">
+    <div class="sec__head">
+      <div><p class="kicker" data-i18n="nav2.k">Naves</p>
+      <h2 data-i18n="naves.t">Naves industriales o para fincas.</h2></div>
+      <p class="sec__lead"><span data-i18n="naves.lead">Naves pequeñas y sencillas, rápidas de montar.</span> <small class="note" data-i18n="ref.note">Imágenes de ejemplo.</small></p>
+    </div>
+    <div class="duo">
+      <article><img src="https://images.unsplash.com/photo-1565610222536-ef125c59da2e?auto=format&fit=crop&w=1200&q=70" alt="" loading="lazy"><div><h3 data-i18n="naves.1t">Naves en fincas o polígonos</h3><p data-i18n="naves.1d">Para almacén, taller, maquinaria o tu negocio.</p></div></article>
+      <article><img src="https://images.unsplash.com/photo-1594768816441-1dd241ffaa67?auto=format&fit=crop&w=1200&q=70" alt="" loading="lazy"><div><h3 data-i18n="naves.2t">Establos de caballos</h3><p data-i18n="naves.2d">Cuadras y boxes con estructura metálica.</p></div></article>
+    </div>
+    <div class="center"><a href="#contacto" class="btn btn--light" data-pick="Nave o establo" data-i18n="naves.cta">Háblanos de tu proyecto ↗</a></div>
+  </div>
+</section>
+
+<!-- LISTA DE SERVICIOS -->
 <section class="sec sec--tint" id="servicios">
   <div class="wrap">
     <div class="sec__head">
-      <div><p class="kicker" data-i18n="svc.kicker">Qué hacemos</p>
-      <h2 data-i18n="svc.title">Todos nuestros servicios.</h2></div>
-      <p class="sec__lead" data-i18n="svc.lead">Desde la estructura hasta el último acabado. Un solo equipo y un solo presupuesto.</p>
+      <div><p class="kicker" data-i18n="svc.k">Qué hacemos</p>
+      <h2 data-i18n="svc.t">Todos nuestros servicios.</h2></div>
     </div>
-
     <div class="svc">
-      <div class="svc__col" id="g-obra" data-icon="i-house">
-        <h3 data-i18n="svc.g1">Obra nueva</h3>
-        <ul>
-          <li id="s-obra-nueva"><svg><use href="#i-build"/></svg><div><b data-i18n="svc.s1">Construcción de obra nueva</b><p data-i18n="svc.d1">Viviendas y edificios desde cero, con estructura metálica y todos los acabados.</p></div></li>
-          <li id="s-casas"><svg><use href="#i-house"/></svg><div><b data-i18n="svc.s2">Casas unifamiliares</b><p data-i18n="svc.d2">Tu casa a medida: estructura, cerramientos y acabados, con un solo equipo.</p></div></li>
-          <li id="s-fincas"><svg><use href="#i-farm"/></svg><div><b data-i18n="svc.s3">Casas dentro de fincas</b><p data-i18n="svc.d3">Viviendas en fincas y parcelas, con estructura ligera y montaje rápido.</p></div></li>
-          <li id="s-naves"><svg><use href="#i-hangar"/></svg><div><b data-i18n="svc.s4">Naves industriales (hasta 6 m de altura)</b><p data-i18n="svc.d4">Naves para almacén, taller o negocio.</p></div></li>
-        </ul>
-      </div>
-      <div class="svc__col" id="g-reformas" data-icon="i-tools">
-        <h3 data-i18n="svc.g2">Reformas</h3>
-        <ul>
-          <li id="s-reformas"><svg><use href="#i-tools"/></svg><div><b data-i18n="svc.s11">Reformas integrales</b><p data-i18n="svc.d11">Reformamos tu casa o tu local entero, de principio a fin.</p></div></li>
-          <li id="s-interiores"><svg><use href="#i-door"/></svg><div><b data-i18n="svc.s12">Reformas interiores</b><p data-i18n="svc.d12">Distribución, suelos, paredes, techos e instalaciones.</p></div></li>
-          <li id="s-banos"><svg><use href="#i-bath"/></svg><div><b data-i18n="svc.s13">Baños</b><p data-i18n="svc.d13">Baños nuevos: ducha, alicatado, sanitarios y muebles.</p></div></li>
-          <li id="s-cocinas"><svg><use href="#i-kitchen"/></svg><div><b data-i18n="svc.s14">Cocinas</b><p data-i18n="svc.d14">Cocinas completas: muebles, encimera e instalaciones.</p></div></li>
-        </ul>
-      </div>
-      <div class="svc__col" id="g-estructura" data-icon="i-beam">
-        <h3 data-i18n="svc.g6">Estructuras metálicas</h3>
-        <ul>
-          <li id="s-estructuras"><svg><use href="#i-beam"/></svg><div><b data-i18n="svc.s6">Estructuras metálicas atornilladas</b><p data-i18n="svc.d6">Acero cortado a medida y unido con tornillos, sin soldadura en obra.</p></div></li>
-        </ul>
-      </div>
-      <div class="svc__col" id="g-porches" data-icon="i-porch">
-        <h3 data-i18n="svc.g3">Porches, cubiertas y restaurantes</h3>
-        <ul>
-          <li id="s-porches"><svg><use href="#i-porch"/></svg><div><b data-i18n="svc.s8">Porches</b><p data-i18n="svc.d8">Porches metálicos para tu casa, con la cubierta que elijas.</p></div></li>
-          <li id="s-terrazas"><svg><use href="#i-roof"/></svg><div><b data-i18n="svc.s9">Cubiertas para terrazas</b><p data-i18n="svc.d9">Cubre tu terraza para poder usarla todo el año.</p></div></li>
-          <li id="s-restaurantes"><svg><use href="#i-food"/></svg><div><b data-i18n="svc.s5">Restaurantes</b><p data-i18n="svc.d5">Construcción y reforma de locales de restauración.</p></div></li>
-        </ul>
-      </div>
-      <div class="svc__col" id="g-caballos" data-icon="i-horse">
-        <h3 data-i18n="svc.g4">Caballos</h3>
-        <ul>
-          <li id="s-cuadras"><svg><use href="#i-horse"/></svg><div><b data-i18n="svc.s10">Cuadras para caballos</b><p data-i18n="svc.d10">Cuadras y boxes para caballos con estructura metálica.</p></div></li>
-        </ul>
-      </div>
-      <div class="svc__col" id="g-jardines" data-icon="i-tree">
-        <h3 data-i18n="svc.g5">Jardines</h3>
-        <ul>
-          <li id="s-jardines"><svg><use href="#i-tree"/></svg><div><b data-i18n="svc.s15">Jardines y exteriores</b><p data-i18n="svc.d15">Caminos, césped, plantas y zonas exteriores.</p></div></li>
-        </ul>
-      </div>
+      <div class="svc__col"><h3><svg><use href="#i-house"/></svg><span data-i18n="c1.t">Casas y chalets</span></h3>
+        <ul><li data-i18n="svc.l1">Casas unifamiliares</li><li data-i18n="svc.l2">Chalets</li><li data-i18n="svc.l3">Casas dentro de fincas</li><li data-i18n="svc.l4">Estructura metálica atornillada</li></ul></div>
+      <div class="svc__col"><h3><svg><use href="#i-tools"/></svg><span data-i18n="c2.t">Reformas</span></h3>
+        <ul><li data-i18n="ref.1t">Cocinas</li><li data-i18n="ref.2t">Baños</li><li data-i18n="ref.3t">Reforma integral</li><li data-i18n="ref.4t">Reformas interiores</li></ul></div>
+      <div class="svc__col"><h3><svg><use href="#i-porch"/></svg><span data-i18n="c3.t">Cubiertas</span></h3>
+        <ul><li data-i18n="cub.1">Porches de casas</li><li data-i18n="cub.2">Terrazas de pisos y casas</li><li data-i18n="cub.3">Terrazas de restaurantes</li><li data-i18n="svc.l5">Establos con estructura metálica</li></ul></div>
+      <div class="svc__col"><h3><svg><use href="#i-hangar"/></svg><span data-i18n="c4.t">Naves industriales</span></h3>
+        <ul><li data-i18n="svc.l6">Naves pequeñas y sencillas</li><li data-i18n="svc.l7">Naves en fincas</li><li data-i18n="svc.l8">Naves en polígonos</li><li data-i18n="naves.2t">Establos de caballos</li></ul></div>
     </div>
-    <div class="center"><a href="#contacto" class="btn btn--dark" data-i18n="svc.cta">Pedir presupuesto sin compromiso ↗</a></div>
-  </div>
-</section>
-
-<!-- EL SISTEMA -->
-<section class="sec" id="sistema">
-  <div class="wrap">
-    <div class="sec__head">
-      <div><p class="kicker" data-i18n="sys.kicker">El sistema, de un vistazo</p>
-      <h2 data-i18n="sys.title">Acero atornillado:<br>rápido, limpio y exacto.</h2></div>
-      <p class="sec__lead" data-i18n="sys.lead">Las piezas llegan cortadas a medida y numeradas. En obra solo se atornillan: sin soldadura y con mucha menos obra húmeda.</p>
-    </div>
-
-    <ol class="parts">
-      <li><span>01</span><h3 data-i18n="sys.1t">Estructura metálica</h3><p data-i18n="sys.1d">Tubo de acero estructural cortado y perforado a medida, unido con piezas atornilladas en cada nudo.</p></li>
-      <li><span>02</span><h3 data-i18n="sys.2t">Cerramiento</h3><p data-i18n="sys.2d">Fachada y cubierta aisladas, a la medida de cada hueco.</p></li>
-      <li><span>03</span><h3 data-i18n="sys.3t">Cubierta</h3><p data-i18n="sys.3d">Plana, a un agua o a dos aguas. Elegimos la solución según el uso y el clima de la zona.</p></li>
-      <li><span>04</span><h3 data-i18n="sys.4t">Acabados</h3><p data-i18n="sys.4d">Interiores, baños, cocinas y exteriores. Te la entregamos lista para usar.</p></li>
-    </ol>
-  </div>
-</section>
-
-<!-- CÓMO TRABAJAMOS -->
-<section class="sec sec--dark" id="proceso">
-  <div class="wrap">
-    <p class="kicker" data-i18n="pro.kicker">Cómo trabajamos</p>
-    <h2 data-i18n="pro.title">De tu idea a la llave, en 6 pasos.</h2>
-    <ol class="steps">
-      <li><span>1</span><h3 data-i18n="pro.1t">Nos cuentas tu proyecto</h3><p data-i18n="pro.1d">Por WhatsApp, teléfono o el formulario. Con fotos o planos, mejor.</p></li>
-      <li><span>2</span><h3 data-i18n="pro.2t">Visita y presupuesto</h3><p data-i18n="pro.2d">Vemos el terreno o el local y te damos un presupuesto claro.</p></li>
-      <li><span>3</span><h3 data-i18n="pro.3t">Cálculo y planos</h3><p data-i18n="pro.3d">Preparamos los planos y el detalle de cada pieza.</p></li>
-      <li><span>4</span><h3 data-i18n="pro.4t">Fabricación a medida</h3><p data-i18n="pro.4d">Cada pieza se corta y se etiqueta antes de llegar a la obra.</p></li>
-      <li><span>5</span><h3 data-i18n="pro.5t">Montaje</h3><p data-i18n="pro.5d">Nuestro equipo monta la estructura y los cerramientos.</p></li>
-      <li><span>6</span><h3 data-i18n="pro.6t">Acabados y entrega</h3><p data-i18n="pro.6d">Terminamos los interiores y te entregamos la obra lista.</p></li>
-    </ol>
-  </div>
-</section>
-
-<!-- OBRAS -->
-<section class="sec" id="obras">
-  <div class="wrap">
-    <div class="sec__head">
-      <div><p class="kicker" data-i18n="obr.kicker">Ejemplos</p>
-      <h2 data-i18n="obr.title">Ideas para tu proyecto.</h2></div>
-      <p class="sec__lead"><span data-i18n="obr.lead">Algunos ejemplos de lo que podemos construir para ti.</span> <small class="note" data-i18n="obr.note">Imágenes de ejemplo.</small></p>
-    </div>
-    <div class="gal">
-      <figure><img src="https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1000&q=70" alt="" loading="lazy"><figcaption data-i18n="obr.1">Casa unifamiliar</figcaption></figure>
-      <figure><img src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?auto=format&fit=crop&w=1000&q=70" alt="" loading="lazy"><figcaption data-i18n="obr.2">Estructura metálica</figcaption></figure>
-      <figure><img src="https://images.unsplash.com/photo-1600573472550-8090b5e0745e?auto=format&fit=crop&w=1000&q=70" alt="" loading="lazy"><figcaption data-i18n="obr.3">Casa dentro de finca</figcaption></figure>
-      <figure><img src="https://images.unsplash.com/photo-1600566753190-17f0baa2a6c3?auto=format&fit=crop&w=1000&q=70" alt="" loading="lazy"><figcaption data-i18n="obr.4">Reforma interior</figcaption></figure>
-      <figure><img src="https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1000&q=70" alt="" loading="lazy"><figcaption data-i18n="obr.5">Cocina</figcaption></figure>
-    </div>
-  </div>
-</section>
-
-<!-- ZONA E IDIOMAS -->
-<section class="band">
-  <div class="wrap band__in">
-    <div>
-      <p class="kicker" data-i18n="zone.kicker">Dónde trabajamos</p>
-      <h2 data-i18n="zone.title">En toda España y en Europa.</h2>
-      <p data-i18n="zone.d">Para obras fuera de España, preparamos el envío del material y el equipo de montaje.</p>
-    </div>
-    <div class="band__langs">
-      <p data-i18n="zone.langs">Te atendemos en:</p>
-      <ul><li><i class="flag flag--es"></i>Español</li><li><i class="flag flag--en"></i>English</li><li><i class="flag flag--fr"></i>Français</li><li><i class="flag flag--sv"></i>Svenska</li></ul>
-    </div>
-  </div>
-</section>
-
-<!-- PREGUNTAS -->
-<section class="sec" id="preguntas">
-  <div class="wrap faq">
-    <div class="sec__head">
-      <h2 data-i18n="faq.title">Antes de dar el paso.</h2>
-      <p class="kicker" data-i18n="faq.kicker">Preguntas frecuentes</p>
-    </div>
-    <details><summary data-i18n="faq.1q">¿Trabajáis fuera de Madrid?</summary><p data-i18n="faq.1a">Sí. Trabajamos en toda España y también hacemos obras en otros países de Europa.</p></details>
-    <details><summary data-i18n="faq.2q">¿Qué ventaja tiene una estructura atornillada?</summary><p data-i18n="faq.2a">Las piezas llegan cortadas y numeradas, y en obra solo se atornillan. Es más rápido, más limpio y más exacto que soldar en obra, y la estructura pesa menos.</p></details>
-    <details><summary data-i18n="faq.3q">¿Necesito licencia?</summary><p data-i18n="faq.3a">Depende de la obra y del municipio. Te ayudamos con la documentación técnica para tramitarla.</p></details>
-    <details><summary data-i18n="faq.4q">¿Cuánto tarda una obra?</summary><p data-i18n="faq.4a">Depende del tamaño y de los acabados. En el presupuesto te damos los plazos de tu obra.</p></details>
-    <details><summary data-i18n="faq.5q">¿Cuánto cuesta?</summary><p data-i18n="faq.5a">Cada obra es a medida. Cuéntanos qué necesitas y te preparamos un presupuesto sin compromiso.</p></details>
   </div>
 </section>
 
 <!-- CONTACTO -->
-<section class="sec sec--tint" id="contacto">
+<section class="sec" id="contacto">
   <div class="wrap contact">
     <div class="contact__txt">
       <p class="kicker" data-i18n="ct.kicker">El siguiente paso</p>
@@ -251,15 +292,17 @@
       <a class="big" href="tel:+34644096351">+34 644 096 351</a>
       <a href="mailto:info@urbanityplus.es">info@urbanityplus.es</a>
       <p class="muted">C/ de la Encina 3, 28110 Algete (Madrid)</p>
+      <p class="muted" data-i18n="ct.zone">Trabajamos en toda España y en Europa. Te atendemos en español, inglés, francés y sueco.</p>
     </div>
 
     <form class="form" id="form" novalidate>
       <label class="full"><span data-i18n="f.int">Me interesa</span>
         <select name="interes">
-          <option value="Particular" data-i18n="f.o1">Particular · Mi casa o reforma</option>
-          <option value="Empresa" data-i18n="f.o2">Empresa · Nave, local o restaurante</option>
-          <option value="Promotora" data-i18n="f.o3">Promotora · Promoción de viviendas</option>
-          <option value="Otro" data-i18n="f.o4">Otra cosa</option>
+          <option value="Casa o chalet" data-i18n="c1.t">Casas y chalets</option>
+          <option value="Reforma" data-i18n="c2.t">Reformas</option>
+          <option value="Cubierta o porche" data-i18n="c3.t">Cubiertas</option>
+          <option value="Nave o establo" data-i18n="f.o4">Naves y establos</option>
+          <option value="Otro" data-i18n="f.o5">Otra cosa</option>
         </select>
       </label>
       <label><span data-i18n="f.name">Nombre</span><input name="nombre" required autocomplete="name"></label>
@@ -277,15 +320,27 @@
   </div>
 </section>
 
+<!-- REDES -->
+<section class="social" id="redes">
+  <div class="wrap social__in">
+    <h2 data-i18n="soc.t">Síguenos en</h2>
+    <ul>
+      <li><a href="#" data-pendiente aria-label="TikTok"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M16.6 5.8A4.3 4.3 0 0 1 15.5 3h-3.1v12.4a2.6 2.6 0 1 1-2.6-2.6c.3 0 .5 0 .8.1V9.7a5.7 5.7 0 1 0 4.9 5.7V9.1a7.4 7.4 0 0 0 4.3 1.4V7.4a4.3 4.3 0 0 1-3.2-1.6Z"/></svg><span>TikTok</span></a></li>
+      <li><a href="#" data-pendiente aria-label="Instagram"><svg viewBox="0 0 24 24"><path fill="none" stroke="currentColor" stroke-width="2" d="M7 3h10a4 4 0 0 1 4 4v10a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4V7a4 4 0 0 1 4-4Zm5 5a4 4 0 1 0 0 8 4 4 0 0 0 0-8Zm5.5-1.5h0"/></svg><span>Instagram</span></a></li>
+      <li><a href="#" data-pendiente aria-label="Facebook"><svg viewBox="0 0 24 24"><path fill="currentColor" d="M13.5 21v-7.5H16l.4-3h-2.9V8.6c0-.9.3-1.5 1.5-1.5h1.5V4.4a20 20 0 0 0-2.3-.1c-2.2 0-3.8 1.4-3.8 3.9v2.3H8v3h2.5V21h3Z"/></svg><span>Facebook</span></a></li>
+    </ul>
+  </div>
+</section>
+
 </main>
 
 <footer class="ftr">
   <div class="wrap ftr__in">
     <a href="#inicio" class="logo logo--light" aria-label="Urbanity Plus">
-      <svg viewBox="0 0 64 44" aria-hidden="true"><path d="M4 22 32 4l28 18" fill="none" stroke="currentColor" stroke-width="4" stroke-linejoin="round"/><rect x="25" y="17" width="14" height="14" fill="none" stroke="currentColor" stroke-width="3"/><path d="M32 17v14M25 24h14" stroke="currentColor" stroke-width="3"/></svg>
+      <svg viewBox="0 0 48 48" aria-hidden="true"><use href="#logo-mark"/></svg>
       <span><b>URBANITY</b><small>PLUS</small></span>
     </a>
-    <p class="ftr__claim" data-i18n="ftr.claim">Calidad, experiencia, innovación y compromiso.</p>
+    <p class="ftr__claim" data-i18n="ftr.claim">Tú sueñas, nosotros construimos.</p>
     <nav class="ftr__legal"><a href="aviso-legal.html" data-i18n="ftr.l1">Aviso legal</a><a href="privacidad.html" data-i18n="ftr.l2">Privacidad</a><a href="cookies.html" data-i18n="ftr.l3">Cookies</a></nav>
     <p class="muted">© 2026 Urbanity Plus SL</p>
   </div>
@@ -296,41 +351,31 @@
   <span data-i18n="wa">¿Hablamos?</span>
 </a>
 
-<!-- iconos -->
+<!-- logo e iconos -->
 <svg width="0" height="0" style="position:absolute" aria-hidden="true">
   <defs>
-    <symbol id="i-build" viewBox="0 0 24 24"><path d="M3 21h18M5 21V9l7-5 7 5v12M9 21v-6h6v6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
+    <mask id="logo-holes" maskUnits="userSpaceOnUse" x="0" y="0" width="48" height="48">
+      <rect width="48" height="48" fill="#fff"/>
+      <circle cx="10" cy="37" r="1.7" fill="#000"/><circle cx="38" cy="37" r="1.7" fill="#000"/>
+      <circle cx="10" cy="9" r="1.7" fill="#000"/><circle cx="38" cy="9" r="1.7" fill="#000"/>
+    </mask>
+    <symbol id="logo-mark" viewBox="0 0 48 48">
+      <g fill="currentColor" mask="url(#logo-holes)">
+        <rect x="5" y="4" width="10" height="38"/><rect x="33" y="4" width="10" height="38"/><rect x="5" y="32" width="38" height="10"/>
+      </g>
+      <g fill="#e0a52b"><rect x="21.5" y="8" width="5" height="17"/><rect x="15.5" y="14" width="17" height="5"/></g>
+    </symbol>
     <symbol id="i-house" viewBox="0 0 24 24"><path d="M3 11 12 4l9 7M5 10v10h14V10M10 20v-5h4v5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
-    <symbol id="i-farm" viewBox="0 0 24 24"><path d="M2 20h20M4 20v-7l5-4 5 4v7M17 20v-5M15 15a2 2 0 1 1 4 0M17 9a3 3 0 1 0 0-6 3 3 0 0 0 0 6Z" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
     <symbol id="i-hangar" viewBox="0 0 24 24"><path d="M2 20V9l10-5 10 5v11M6 20v-8h12v8M6 15h12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
-    <symbol id="i-food" viewBox="0 0 24 24"><path d="M7 3v8M5 3v4a2 2 0 0 0 4 0V3M7 11v10M16 21V3c-2 1-3 4-3 8h3" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></symbol>
     <symbol id="i-beam" viewBox="0 0 24 24"><path d="M3 5h18M3 19h18M6 5v14M18 5v14M6 5l12 14M18 5 6 19" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
-    <symbol id="i-panel" viewBox="0 0 24 24"><path d="M3 7h18v4H3zM3 13h18v4H3z" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
     <symbol id="i-porch" viewBox="0 0 24 24"><path d="M2 8 12 4l10 4M4 8v12M20 8v12M2 20h20M8 14h8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
-    <symbol id="i-roof" viewBox="0 0 24 24"><path d="M3 9h18M5 9V7h14v2M6 9v11M18 9v11M9 13h6v4H9z" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
-    <symbol id="i-horse" viewBox="0 0 24 24"><path d="M2 20V8l10-4 10 4v12M2 20h20M7 20v-8h10v8M7 15h10M12 12v8" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
     <symbol id="i-tools" viewBox="0 0 24 24"><path d="m14 7 3-3 3 3-3 3M17 10l-9 9-3-3 9-9M4 4l5 5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></symbol>
-    <symbol id="i-door" viewBox="0 0 24 24"><path d="M5 21V3h11v18M3 21h18M13 12h.01" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
-    <symbol id="i-bath" viewBox="0 0 24 24"><path d="M3 12h18v3a5 5 0 0 1-5 5H8a5 5 0 0 1-5-5zM6 12V5a2 2 0 0 1 4 0" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
-    <symbol id="i-kitchen" viewBox="0 0 24 24"><path d="M3 10h18v10H3zM3 14h18M7 4h10v6H7zM10 7h4" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
-    <symbol id="i-tree" viewBox="0 0 24 24"><path d="M12 22v-7M12 15a5 5 0 1 0-5-5 4 4 0 0 0 5 5Zm0 0a5 5 0 0 0 5-5M3 22h18" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-clock" viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm0-13v4l3 2" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-coin" viewBox="0 0 24 24"><path d="M12 21a9 9 0 1 0 0-18 9 9 0 0 0 0 18Zm3-12.5a3.5 3.5 0 1 0 0 7M8 11h5M8 13.5h5" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
+    <symbol id="i-spark" viewBox="0 0 24 24"><path d="M12 3v4M12 17v4M3 12h4M17 12h4M6 6l2.5 2.5M15.5 15.5 18 18M6 18l2.5-2.5M15.5 8.5 18 6" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round"/></symbol>
   </defs>
 </svg>
 
-<dialog class="dlg" id="dlg" aria-labelledby="dlg-t">
-  <button class="dlg__x" type="button" aria-label="Cerrar">×</button>
-  <svg class="dlg__ic" aria-hidden="true"><use href="#i-build"/></svg>
-  <p class="kicker" id="dlg-g"></p>
-  <h3 id="dlg-t"></h3>
-  <p class="dlg__d" id="dlg-d"></p>
-  <ul class="dlg__list" id="dlg-l"></ul>
-  <p class="dlg__hint" data-i18n="dlg.hint">Cuéntanos qué necesitas y te preparamos un presupuesto sin compromiso.</p>
-  <div class="dlg__btns">
-    <a class="btn btn--wa" id="dlg-wa" href="#" target="_blank" rel="noopener" data-i18n="dlg.wa">Pedir por WhatsApp ↗</a>
-    <a class="btn btn--dark" id="dlg-q" href="#contacto" data-i18n="dlg.q">Pedir presupuesto</a>
-  </div>
-</dialog>
-
-<script src="app.js?v=14"></script>
+<script src="app.js?v=20"></script>
 </body>
 </html>

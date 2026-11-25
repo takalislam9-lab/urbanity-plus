@@ -31,10 +31,11 @@ h3{font-size:1.25rem;font-weight:700}
 .hdr{position:fixed;inset:0 0 auto;z-index:50;background:rgba(245,244,240,.96);backdrop-filter:blur(8px);border-bottom:1px solid var(--line)}
 .hdr__top{display:flex;align-items:center;justify-content:space-between;height:64px}
 .logo{display:flex;align-items:center;gap:10px;text-decoration:none;color:var(--ink)}
-.logo svg{width:36px;height:36px}
-.logo span{display:flex;flex-direction:column;line-height:1}
-.logo b{font:800 1.12rem/1 var(--f-h);letter-spacing:.08em}
-.logo small{font:700 .62rem/1 var(--f-b);letter-spacing:.62em;color:var(--gold);margin-top:5px;padding-left:2px}
+.logo svg{width:40px;height:40px;transition:transform .6s ease}
+.logo:hover svg{transform:rotate(60deg)}
+.logo span{display:flex;align-items:baseline;line-height:1;white-space:nowrap}
+.logo b{font:800 1.05rem/1 var(--f-h);letter-spacing:.14em}
+.logo small{font:800 1.05rem/1 var(--f-h);letter-spacing:.14em;color:var(--gold);margin-left:.35em}
 .logo--light{color:#fff}
 .nav{display:flex;align-items:center;gap:26px}
 .nav a{font-size:.92rem;text-decoration:none;color:var(--ink2)}
@@ -259,6 +260,8 @@ h3{font-size:1.25rem;font-weight:700}
   .duo{grid-template-columns:1fr}
 }
 @media (max-width:600px){
+  .logo svg{width:34px;height:34px}
+  .logo b,.logo small{font-size:.88rem;letter-spacing:.1em}
   :root{--hdr:104px}
   .langs{gap:6px;padding-bottom:8px}
   .langs button{padding:5px 8px;font-size:0}
